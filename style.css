@@ -1,0 +1,164 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top : 0;
+    left: 0;
+    background-color: black;
+    z-index: 10;
+}
+
+a {
+    color: azure;
+    font-family: "Pacifico", serif;
+}
+
+.home {
+    padding: 5px 0 20px 30px;
+    float: left;
+    width:60%;
+    font-size:xx-large;
+}
+
+.menu, .about, .contact {
+    padding: 20px 10px 5px 15px;
+    float: left;
+    width:10%;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 800px) {
+    .home {
+        width: 100%;
+    }
+    .menu, .about, .contact {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home, .menu, .about, .contact {
+        width: 100%;
+    }
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color:rgb(57, 57, 58);
+}  
+
+.home_img {
+    width: 100%;
+}
+
+.rightside_text {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 5vw;
+}
+
+.about_image {
+    max-width:100%;
+    height: auto;
+}
+
+.about_img {
+    max-width:30%;
+    float: left;
+    margin: 5%;
+}
+
+.about_gourmet {
+    max-width: 55%;
+    float:left;
+    text-align: justify;
+    margin: 2% 5% 5% 0;
+    line-height: 1.8;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gourmet_menu {
+    max-width: 30%;
+    padding-left: 15%;
+}
+
+li {
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+}
+
+dt {
+    font-family: "Pacifico", serif;
+    font-size:xx-large;
+}
+
+h1 {
+    font-family: "Pacifico", serif;
+    font-size: xxx-large;
+}
+
+.menu_image_1 {
+    max-width:100%;
+    height: auto;
+}
+
+.menu_img_1 {
+    max-width: 30%;
+    float: right;
+    margin: 10% 10% 0 10%;
+}
+
+.menu_image_2 {
+    max-width:100%;
+    height: auto;
+}
+
+.menu_img_2 {
+    max-width: 30%;
+    float: left;
+    margin: 5% 5% 5% 10%;
+}
+
+.contact_sec {
+    width: 50%;
+    margin: 5% 5% 5% 0;
+    float: right;
+}
+
+legend {
+    font-family: "Pacifico", serif;
+    font-size:xx-large;
+}
+
+input {
+    font-size: large;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    border:none;
+    border-bottom: 1px solid gray;
+    margin-left: 3%;
+    padding: 10px;
+}
+
+p {
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p, address {
+    font-size: large;
+    padding-left: 3%;
+}
+
+.submit {
+    max-width: 30%;
+    border: none;
+    margin-bottom: 3%;
+}
